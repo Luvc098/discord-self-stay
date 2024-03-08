@@ -29,20 +29,20 @@ client.on("ready", async () => {
 		});   
     
 const r = new RichPresence() 
-	.setApplicationId('1159018870401675276')
+	.setApplicationId('1088963504926642286')
 	.setType('PLAYING')
-	.setURL('link')
-	.setState('Set State')
-	.setName('Set Name')
-	.setDetails('Set Details')
+	.setURL('https://www.youtube.com/channel/UCWa_euD13oekqNsQPXYKXYw')
+	.setState('Faymoon5')
+	.setName('LiquidBounce')
+	.setDetails('sssssss')
 	.setParty({
 		max: 5,
 		current: 3,
 		id: getUUID(),
 	})
 	.setStartTimestamp(Date.now())
-	.setAssetsLargeImage('Assets ID')
-	.setAssetsLargeText('Set Description Assets')
-	.addButton('Custom Button', 'Button Link')
+	.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1005727430675279942/1215589899936473128/637704298950098232.png?ex=65fd4d50&is=65ead850&hm=cb3a0aba5a7e0d36dadc461ca1802818b3340b84e644cb82772b21d1d7126f3f&')
+	.setAssetsLargeText('LiquidBounce')
+	.addButton('Custom Button', 'https://www.youtube.com/channel/UCWa_euD13oekqNsQPXYKXYw')
 
 client.login(process.env.TOKEN)
