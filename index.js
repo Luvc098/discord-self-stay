@@ -34,7 +34,12 @@ const r = new RichPresence()
 	.setURL('https://www.youtube.com/channel/UCWa_euD13oekqNsQPXYKXYw')
 	.setState('LiquidBounce')
 	.setName('LiquidBounce')
-	.setDetails('Halo'),
+	.setDetails('Halo')
+	.setParty({
+		max: 1,
+		current: 1,
+		id: getUUID(),
+	})
 	.setStartTimestamp(Date.now())
 	.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1005727430675279942/1215589899936473128/637704298950098232.png?ex=65fd4d50&is=65ead850&hm=cb3a0aba5a7e0d36dadc461ca1802818b3340b84e644cb82772b21d1d7126f3f&')
 	.setAssetsLargeText('LiquidBounce')
