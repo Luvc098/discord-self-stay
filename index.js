@@ -33,8 +33,8 @@ const r = new RichPresence()
 	.setType('PLAYING')
 	.setURL('https://www.youtube.com/channel/UCWa_euD13oekqNsQPXYKXYw')
 	.setState('LiquidBounce')
-	.setName('LiquidBounce')
-	.setDetails('Halo')
+	.setName('najwan gay')
+	.setDetails('test woii')
 	.setParty({
 		max: 1,
 		current: 1,
